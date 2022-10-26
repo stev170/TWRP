@@ -39,6 +39,17 @@ TG_TEXT=$(< tg.html)
 telegram_message "${TG_TEXT}"
 echo " "
 
+echo -e \
+"
+✨ PBRP Recovery CI
+✔️ The Build has been Triggered!
+📱 Device: "${DEVICE}
+
+TG_TEXT=$(< tg.html)
+
+telegram_message "${TG_TEXT}"
+echo " "
+
 # Run the Extra Command
 $EXTRA_CMD
 
