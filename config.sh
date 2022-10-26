@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # telegram
-export TG_CHAT_ID: -1001573823621
-export TG_TOKEN: ENCRYPTED[!98e054fa9aab8ca43b965ec07db0e84f1834205d4f40954a8f8134e6e951aadb00574466c6b82828eef4860da34925af!]
+#export TG_CHAT_ID: -1001573823621
+#export TG_TOKEN: ENCRYPTED[!98e054fa9aab8ca43b965ec07db0e84f1834205d4f40954a8f8134e6e951aadb00574466c6b82828eef4860da34925af!]
 
 # Device
 export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
