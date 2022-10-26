@@ -3,6 +3,14 @@
 # Source Configs
 source $CONFIG
 
+sendMessage() {
+MESSAGE=$1
+
+curl -s "https://api.telegram.org/bot${TG_TOKEN}/sendmessage" --data "text=$MESSAGE&chat_id=$TG_CHAT_ID" 1> /dev/null
+
+echo -e;
+}
+
 # A Function to Send Posts to Telegram
 telegram_message() {
 	curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
