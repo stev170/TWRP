@@ -2,6 +2,7 @@
 
 # Source Configs
 source $CONFIG
+source tg.conf
 
 sendMessage() {
 MESSAGE=$1
