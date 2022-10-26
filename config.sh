@@ -4,7 +4,7 @@
 export TWRP_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp"
 export TWRP_BRANCH="twrp-12.1"
 #export TWRP_BRANCH="twrp-test"
-export DT_LINK="https://github.com/erwinabs/android_device_xiaomi_ginkgo-twrp.git -b android-12.1"
+export DT_LINK="https://github.com/stev170/android_device_xiaomi_ginkgo-twrp.git -b android-12.1"
 
 export DEVICE="ginkgo"
 export OEM="xiaomi"
